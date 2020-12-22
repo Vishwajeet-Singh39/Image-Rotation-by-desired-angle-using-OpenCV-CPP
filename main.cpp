@@ -4,7 +4,7 @@
 using namespace std;
 using namespace cv;
 int main(){
-    Mat img=imread("D:/GEU/Programs/CVOPEN/goku.jpg");
+    Mat img=imread("D:/Stuff/GitHub/Image-Rotation-by-desired-angle-using-OpenCV-CPP/goku.jpg");
     if(img.empty()){
         cout<<"Error";
     }
